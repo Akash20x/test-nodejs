@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
   res.writeHead(200, {'Content-Type': 'text/plain'});
   
   // Send the response body "Hello World"
-  res.end('Sashaktm Server\n');
+  res.end('Akash Server\n');
 });
 
 // Define the port the server will listen on
