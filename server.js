@@ -10,7 +10,7 @@ const server = http.createServer((req, res) => {
 });
 
 // Define the port the server will listen on
-const port = 8080;
+const port = 80;
 
 // Start the server and have it listen on the defined port
 server.listen(port, () => {
